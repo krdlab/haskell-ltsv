@@ -1,0 +1,31 @@
+# haskell-ltsv
+
+LTSV format parser in Haskell.
+
+NOTE: `Data.LTSV.String` module is prototype code (encoder/decoder implementation).
+
+## Install
+
+    $ cabal install
+
+## Test
+
+    $ cabal-dev install-deps --enable-tests
+    $ cabal-dev configure --enable-tests
+    $ cabal-dev build
+    $ cabal-dev test
+
+## Examples
+
+Please see library's document.
+
+    $ cabal haddock --hyperlink-source
+
+## License
+
+BSD3
+
+----
+
+(c) 2013 krdlab
+
